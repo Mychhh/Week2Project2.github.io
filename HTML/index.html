@@ -21,14 +21,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </head>
-<body class="p=0">
+<body>
 <!--header-->  
   <header class="container-fluid mt-2 shadow rounded-3 bg-light">
 
   <nav class="navbar navbar-expand-lg border-top-3 navbar-light bg-light" id="navBar" >
 
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="C:\BootCamp\Week2\Project2Try\Images\Logo\Style2\1.png" alt="Logo" height="50" class="img-circle"> MyChael</a>
+      <a class="navbar-brand" href="index.html"><img src="C:\BootCamp\Week2\Project2Try\Images\Logo\Style2\1.png" alt="Logo" height="50" class="img-circle"> MyEnvironment</a>
 
       <!--nav bar toggler-->
       <button class="navbar-toggler" 
@@ -48,19 +48,19 @@
         <ul class="navbar-nav ms-auto text-end">
           <hr>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">About</a>
+            <a class="nav-link active" aria-current="page" href="About.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+            <a class="nav-link active" aria-current="page" href="Contact.html">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Service</a>
+            <a class="nav-link active" aria-current="page" href="Service.html">Service</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Login</a>
+            <a class="nav-link active" aria-current="page" href="Login.html">Login</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Sign-Up</a>
+            <a class="nav-link active" aria-current="page" href="SignUp.html">Sign-Up</a>
           </li>
         </ul>
        </div>
@@ -71,21 +71,22 @@
   <br>
 
   <!--section1-->
-  <section class="container">
+  <section class="container shadow">
     <!--row-->
     <div class="row py-5"  id="BGSection1D9CAB3">
     <div class="col-6 p-2 mb-1">
       <!--row-->
       <div class="row">
         <div class="col-12 m-2">
-          <h1>Home, ipsum dolor.</h1>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, maxime. Lorem ipsum dolor sit amet.</p>
+          <h1>Home, we should keep it safe.</h1>
+          <p>Join us, keep our environment peaceful. Let those birds live on their own. Stop hunting them to balance our ecosystem and let them do their part from the sake of mankind</p>
         </div>
       </div>
        <!--row-->
       <div class="row">
-        <div class="col-12 m-2">
-          <button type="button" class="text-white btn-dark opacity-75  btn-outline-secondary rounded-2 px-4 py-1">About</button>
+        <div class="col-12 mt-5 m-2">
+          <a href="#about"><button type="button" class="text-white btn-dark opacity-75  btn-outline-secondary rounded-2 px-4 py-1">About</button></a>
+          
         </div>
       </div>
     </div>
@@ -100,10 +101,27 @@
     <hr class="text-secondary">
   </div>
 
-  <!--section2-->
-  <section class="container">
+<!--section2-->  
+  <div class="container shadow">
+    <div class="row py-3" id="BGSection2CDC2AE">
+      <div class="col-2"></div>
+      <div class="col-8 align-content-center text-center p-2">
+      <h4>Information.</h4>
+      <p>Habitat destruction and deforestation are the main threats to the existence of the forest owlet. Illegal wood cutting and expansion of agriculture has greatly reduced and continues to reduce, the forest this owlet requires. Superstitious beliefs among the local human populations also take a toll on the owlet.</p>  
+      <div class="col-2"></div>
+      </div>
+    </div>
+  </div>
+
+<!--hr-->  
+<div class="container">
+  <hr class="text-secondary">
+</div> 
+
+  <!--section3-->
+  <section class="container shadow">
     <!--row-->
-    <div class="row py-5"  id="BGSection2CDC2AE">
+    <div class="row py-5"  id="BGSection1D9CAB3">
     <div class="col-sm-6">
         <img src="C:\BootCamp\Week2\Project2Try\Images\Section2Pic.jpg" class="img-fluid border border-2 border-white" alt="OwlImage">
     </div>
@@ -111,15 +129,15 @@
       <!--row-->
       <div class="row">
         <div class="col-12 m-2">
-          <h1>Service, ipsum dolor.</h1>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, maxime. Lorem ipsum dolor sit amet.</p>
+          <h1>Service.</h1>
+          <p>Our goals is to protect those birds and balance our ecosystem, by roaming around different forest across the word. Our organization aim the peaceful environment from all of us species in this world</p>
         </div>
       </div>
        <!--row-->
       <div class="row">
-        <div class="col-12 m-2 d-inline">
-          <button type="button" class="text-white btn-dark opacity-75 btn-outline-secondary rounded-2 px-4 py-1">Login</button>
-          <button type="button" class="text-white btn-dark opacity-75  btn-outline-secondary rounded-2 px-4 py-1">Sign-Up</button>
+        <div class="col-12 mt-5 d-inline">
+          <a href="Login.html"><button type="button" class="text-white btn-dark opacity-75 btn-outline-secondary rounded-2 px-4 py-1">Login</button></a>
+          <a href="SignUp.html"><button type="button" class="text-white btn-dark opacity-75  btn-outline-secondary rounded-2 px-4 py-1">Sign-Up</button></a>
         </div>
       </div>
     </div>
@@ -127,49 +145,61 @@
   </section>
 
 <!--hr-->  
+<div class="container">
+  <hr class="text-secondary">
+</div>
+
+<!--Details-->
+<div class="container text-dark shadow text-center p-3" id="BGSection2CDC2AE">
+  <h1 id="ContactFonts">Your help means a lot to us</h1>
+  <p>helping hands, are better than praying lips</p> 
+</div>
+
+<!--hr-->  
   <div class="container">
     <hr class="text-secondary">
   </div>  
 
-  <!--Cards-->
-  <div class="text-center">
-    <h2>About</h2>
-  </div>
-  <div class="Cards container">
-    <div class="row row-cols-1 row-cols-md-3 g-4">
+  <!--Cards about-->
+
+  <div class="Cards container shadow" id="BGSection1D9CAB3">
+    <div class="text-center pt-3">
+      <h2 id="about">About</h2>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4 p-2">
       <div class="col">
-        <div class="card h-100" id="BGSection1D9CAB3">
+        <div class="card h-100" id="BGSection2CDC2AE">
           <img src="C:\BootCamp\Week2\Project2Try\Images\Cards\Left.png" class="card-img-top p-2" height="350" alt="Left">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <h5 class="card-title">Moheli scops owl</h5>
+            <p class="card-text">The remarkable vocalizations include a raspy bark and a long, low-pitched growling hiss. Sometimes active and vocal during the day, especially the early morning and late afternoon. Easily identified, as the only other owl on Moheli is the much larger Barn Owl.</p>
           </div>
           <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
+            <small class="text-muted">population 400+</small>
           </div>
         </div>
       </div>
       <div class="col">
-        <div class="card h-100" id="BGSection1D9CAB3">
+        <div class="card h-100" id="BGSection2CDC2AE">
           <img src="C:\BootCamp\Week2\Project2Try\Images\Cards\Center.JPG" class="card-img-top p-2" height="350" alt="Center">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <h5 class="card-title">Otus paulian</h5>
+            <p class="card-text">Otus pauliani is found only on Mt Karthala, an active volcano on Grand Comoro (= Ngazidja), in the Comoro Islands. Models by Ibouroi et al. (2019) estimate the extent of suitable habitat to be 133 km2. </p>
           </div>
           <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
+            <small class="text-muted">population 2000+</small>
           </div>
         </div>
       </div>
       <div class="col">
-        <div class="card h-100" id="BGSection1D9CAB3">
+        <div class="card h-100" id="BGSection2CDC2AE">
           <img src="C:\BootCamp\Week2\Project2Try\Images\Cards\Right.JPG" class="card-img-top p-2" height="350" alt="Right">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <h5 class="card-title">Siau scops owl</h5>
+            <p class="card-text">The population is estimated to number fewer than 50 individuals and mature individuals, based on analyses of recent searches and reports, the extent of habitat destruction within its range, and the conclusion that it seems likely that any surviving population will prove minute.</p>
           </div>
           <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
+            <small class="text-muted">population 50</small>
           </div>
         </div>
       </div>
@@ -178,9 +208,15 @@
   
   <!--hr-->  
   <div class="container">
-    <hr class="text-secondary">
+<br>
   </div>
-
 
 </body>
 </html>
+
+<footer class="container-fluid footer shadow text-dark" id="navBar" >
+  <div class="p-3 align-items-center shadow text-center" >
+    © 2022 Copyright:
+    <a class="text-dark" href="#">MyEnvironment.org</a>
+  </div>
+</footer>
